@@ -26,6 +26,7 @@ body {
 
             &.mat-button-disabled {
                 cursor: not-allowed;
+                text-decoration: none;
             }
         }
     }
