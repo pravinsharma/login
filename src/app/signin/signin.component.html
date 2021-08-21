@@ -1,12 +1,11 @@
-<section class="pg-signin" fxLayout="row" fxFlexFill>
-    <section class="form" fxFlex="60" fxLayout="column">
-        <section class="header" fxLayoutAlign="center center">
-            <section fxFlex="30"><img src="../../assets/images/logo.svg"></section>
-            <section fxFlex="70" fxLayoutAlign="end"><a mat-button href="#">Home</a></section>
-        </section>
-        <section class="sign-in" fxLayout="column" fxLayoutAlign="center center">
-            <p class="ucase">Start your free photo experience</p>
-            <h1>Login your account</h1>
+<section class="pg-signin" fxLayout="row">
+    <section class="sign-in trans light" cdkDrag fxLayout="column" fxLayoutAlign="center center">
+        <mat-toolbar cdkDragHandle>
+            <div class="titlebar ucase">Login to your account</div>
+        </mat-toolbar>
+        
+        <section class="body">
+            <p>Start your free photo experience!</p>
             <form fxLayout="column">
                 <mat-form-field appearance="outline">
                     <mat-label>E-Mail</mat-label>
@@ -33,19 +32,5 @@
                 <a mat-button href="#">Forgot password?</a>
             </section>
         </section>
-        <section class="footer">
-            <section class="pages" fxLayoutAlign="start" fxFlex="50">
-                <a mat-button href="#">Impress</a>
-                <mat-icon>radio_button_unchecked</mat-icon>
-                <a mat-button href="#">Privacy</a>
-            </section>
-
-            <section class="lang" fxLayoutAlign="end" fxFlex="50">
-                <a mat-button href="#">DE</a>
-                <mat-icon>radio_button_unchecked</mat-icon>
-                <a mat-button href="#" class="active" disabled>EN</a>
-            </section>
-        </section>
     </section>
-    <section class="banner" fxFlex="40"></section>
 </section>

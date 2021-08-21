@@ -38,4 +38,33 @@ body {
     .lcase {
         text-transform: lowercase;
     }
+
+    .header, .footer {
+        padding: 10px;
+    }
+
+    .trans {
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+        &.noshad {
+            box-shadow: none;
+        }
+
+        &.dark {
+            background: #0006;
+            color: rgb(233, 233, 233);
+
+            a {
+                color: #31d4f5;
+            }
+        }
+
+        &.light {
+            background: #fffe;
+            color: rgb(41, 41, 41);
+        }
+    }
 }
