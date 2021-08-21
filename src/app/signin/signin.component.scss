@@ -5,22 +5,23 @@
         margin: auto auto;
         width: 400px;
         border-radius: 5px;
-        background: #fffc;
+        background: #fffd;
 
         .mat-toolbar {
             background: #0008;
             color: white;
             border-radius: 5px 5px 0 0;
             cursor: move;
-        }
+            height: inherit;
+            padding: 10px;
 
-        .titlebar {
-            // color: #6B6C6F;
-            font-size: 0.8em;
-            // background-color: #fff5;
+            .titlebar {
+                font-size: 0.8em;
+            }
         }
 
         .body {
+            background: rgba(255, 255, 255, 0.342);
             padding: 15px;
             overflow: scroll;
             width: calc(400px - 30px);

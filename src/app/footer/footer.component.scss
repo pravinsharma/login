@@ -1,9 +1,12 @@
 .footer {
     mat-icon {
-        font-size: 0.6em;
-        padding: 4px;
+        font-size: 0.5em;
+        color: #7777;
+        padding: 2px;
         line-height: inherit;
         width: inherit;
         height: inherit;
+        position: relative;
+        top: 3px;
     }
 }
