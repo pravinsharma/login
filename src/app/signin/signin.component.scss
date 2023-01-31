@@ -23,7 +23,7 @@
         .body {
             background: rgba(255, 255, 255, 0.342);
             padding: 15px;
-            overflow: scroll;
+            overflow: hidden;
             width: calc(400px - 30px);
 
             * {
